@@ -1,0 +1,241 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(49, 49, 47));
+
+}
+
+.nav {
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-radius: 0px 0px 60px 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.callusnow {
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.hithere{
+    
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+
+.hitheretext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    padding-top: 25px;
+    margin-bottom: 0%;
+    color: rgb(233, 233, 233);
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+.hitheretext2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+    color: rgb(233, 233, 233);
+    letter-spacing: 3px;
+}
+
+.giftbox{
+    display: none;
+
+}
+
+
+.mobilehithere{
+    display: none;
+
+}
+
+.joinus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+    color: rgb(233, 233, 233);
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.buttons{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
+.socialbutton{
+    width: 170px;
+  
+}
+
+
+
+.logo{
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+
+
+    body {
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1000px;
+        
+    }
+    
+
+    .nav {
+        background-color: rgb(43, 43, 43);
+        max-width:100%;
+        height: 60px;
+        margin: auto;
+        border-radius: 0px 0px 60px 60px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .callusnow {
+        margin: 0%;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        text-align: center;
+        padding-top: 19px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+
+    .hithere{
+        display: none;
+    
+    }
+    
+   
+
+    .mobilehithere{
+        display: list-item;
+        
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 65px;
+    
+    }
+
+    .mobilehitheretext {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        
+        margin-top: 30px;
+        color: rgb(192, 166, 108);
+        letter-spacing: 1px;
+        padding-left: 33px;
+        font-weight: 750;
+        padding-bottom: 0%;
+        margin-bottom: 8px;
+        padding-top: 90px;
+       
+        
+    }
+
+    .mobilehitheretext2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        margin-top: 30px;
+        color: rgb(233, 233, 233);
+        padding-left: 33px;
+        margin-top: 0;
+        padding-top: 0;
+        letter-spacing: 1px;
+
+    }
+    
+    .giftbox{
+        display: list-item;
+        width: 80px;
+        height: auto;
+        float: right;
+        margin-top: 0%;
+        padding: 0%;
+
+    }
+    
+    .joinus{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        margin-top: 30px;
+        color: rgb(233, 233, 233);
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+
+
+    .buttons{
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        
+    
+        
+        
+    }
+
+    .socialbutton{
+        width: 170px;
+      
+    }
+    
+    
+
+    .logo{
+        width: 170px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+      
+    }
+    
+
+}
+
+
+
+
