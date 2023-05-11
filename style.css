@@ -12,17 +12,19 @@ body {
     margin: auto;
     border-radius: 0px 0px 60px 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .callusnow {
-    margin: 0%;
+   
     color: rgb(255, 255, 255);
     font-size: 17px;
-    text-align: center;
     padding-top: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 3px;
+    text-decoration: none;
+    display: inline-block;
 }
 .hithere{
     
