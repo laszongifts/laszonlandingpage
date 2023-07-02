@@ -134,7 +134,7 @@ footer{
         margin: 0%;
         padding: 0%;
         width: 100%;
-        height: 700px;
+        height: auto;
         background-image: url(img/golden.jpg);
         
     }
@@ -218,7 +218,7 @@ footer{
     .secondnav{
         background-color: rgb(255, 255, 255);
         max-width:100%;
-        height: 580px;
+        height: auto;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
@@ -269,7 +269,7 @@ footer{
         letter-spacing: 2px;
         font-family: 'Montserrat', sans-serif;
         display: list-item;
-        margin-top: 55px;
+        margin-top: 44px;
         
        
     }
