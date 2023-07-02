@@ -218,7 +218,7 @@ footer{
     .secondnav{
         background-color: rgb(255, 255, 255);
         max-width:100%;
-        height: 600px;
+        height: 580px;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
@@ -258,12 +258,10 @@ footer{
     }
     
     
-    footer{
+    .footer{
         width: 100%;
         height: 55px;
         background-color: rgb(34, 36, 36);
-        margin-top: 550px;
-        position: absolute;
         border-radius: 60px 60px 0px 0px;
         color: aliceblue;
         text-align: center;
@@ -271,6 +269,9 @@ footer{
         letter-spacing: 2px;
         font-family: 'Montserrat', sans-serif;
         display: list-item;
+        margin-top: 55px;
+        
+       
     }
 
     .mobilebuttons{
