@@ -3,23 +3,28 @@ body {
     padding: 0%;
     background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(49, 49, 47));
     width: 100%;
-    height: 750px;
-
+    height: 800px;
 
 }
 
 .nav {
     background-color: rgb(43, 43, 43);
     width: 100%;
-    height: 50px;
+    height: 100px;
     margin: auto;
-    border-radius: 0px 0px 60px 60px;
+    border-radius: 0px 0px 100px 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 
+.logonav{
+    width: auto;
+    height: 55px;
+    margin-top: 22px;
+}
+
+
 .callusnow {
-   
     color: rgb(255, 255, 255);
     font-size: 17px;
     padding-top: 15px;
@@ -78,22 +83,27 @@ body {
     text-align: center;
 }
 
-.buttons{
+
+.mbsocialbutton{
+    width: 250px;
+    margin: 8px;
+  
+}
+
+.mobilebuttons{
+    width: 360px;
     margin: auto;
     width: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 0%;
+    
+   
     
 }
-
-.socialbutton{
-    width: 170px;
-  
-}
-
+ 
 
 
 .logo{
@@ -106,6 +116,14 @@ body {
   
 }
 
+.secondnav{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
 
 
 @media only screen and (max-width: 450px) {
@@ -116,7 +134,8 @@ body {
         margin: 0%;
         padding: 0%;
         width: 100%;
-        height: 750px;
+        height: 700px;
+        background-image: url(img/golden.jpg);
         
     }
     
@@ -124,11 +143,22 @@ body {
     .nav {
         background-color: rgb(43, 43, 43);
         max-width:100%;
-        height: 60px;
+        height: 70px;
         margin: auto;
         border-radius: 0px 0px 60px 60px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 0%;
+        padding-bottom: 0%;
     }
+
+    .logonav{
+        width: auto;
+        height: 40px;
+        margin-top: 15px;
+    }
+    
+
+   
     
     .callusnow {
         margin: 0%;
@@ -146,66 +176,65 @@ body {
     
     }
     
-   
 
     .mobilehithere{
         display: list-item;
-        
         width: 100%;
-        height: 200px;
-        margin-top: 30px;
-        margin-bottom: 65px;
-    
+        height: 198px;
+        margin-top: -20px;
     }
 
     .mobilehitheretext {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
-        
-        margin-top: 30px;
-        color: rgb(192, 166, 108);
+        color: rgb(255, 255, 255);
         letter-spacing: 1px;
         padding-left: 33px;
         font-weight: 750;
         padding-bottom: 0%;
         margin-bottom: 8px;
-        padding-top: 90px;
-       
-        
+        padding-top: 75px;
     }
 
     .mobilehitheretext2{
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        margin-top: 30px;
-        color: rgb(233, 233, 233);
+        color: rgb(27, 26, 26);
         padding-left: 33px;
         margin-top: 0;
         padding-top: 0;
         letter-spacing: 1px;
-
     }
     
     .giftbox{
         display: list-item;
-        width: 80px;
+        width: 98px;
         height: auto;
         float: right;
-        margin-top: 0%;
-        padding: 0%;
+        margin-top: 10px;
 
     }
-    
+
+    .secondnav{
+        background-color: rgb(255, 255, 255);
+        max-width:100%;
+        height: 600px;
+        border-radius: 60px 60px 0px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: list-item;
+        margin-top: 0px;
+        position: absolute;
+        
+    }
+
     .joinus{
         font-family: 'Montserrat', sans-serif;
         font-size: 17px;
-        margin-top: 30px;
-        color: rgb(233, 233, 233);
+        margin-top: 80px;
+        color: rgb(34, 33, 33);
         letter-spacing: 0px;
         text-align: center;
     }
-
-
 
     .buttons{
         margin: auto;
@@ -214,32 +243,41 @@ body {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 30px;
-        
-    
-        
-        
+        margin-top: 33px;
     }
+
 
     .socialbutton{
-        width: 170px;
-      
-    }
-    
-    
-
-    .logo{
-        width: 170px;
+        width: 270px;
+        margin-top: 15px;
         height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 60px;
-      
     }
+    
+    
+    .footer{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(34, 36, 36);
+        display: list-item;
+        position: absolute;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-radius: 60px 60px 0px 0px;
+        text-align: center;
+        color: beige;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .mobilebuttons{
+        display: none;
+    }
+    
     
 
 }
+
 
 
 
