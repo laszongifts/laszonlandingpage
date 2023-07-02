@@ -270,6 +270,7 @@ footer{
         padding-top: 10px;
         letter-spacing: 2px;
         font-family: 'Montserrat', sans-serif;
+        display: list-item;
     }
 
     .mobilebuttons{
