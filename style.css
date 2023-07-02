@@ -143,7 +143,7 @@ body {
     .nav {
         background-color: rgb(43, 43, 43);
         max-width:100%;
-        height: 70px;
+        height: 75px;
         margin: auto;
         border-radius: 0px 0px 60px 60px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -153,8 +153,8 @@ body {
 
     .logonav{
         width: auto;
-        height: 40px;
-        margin-top: 15px;
+        height: 43px;
+        margin-top: 17px;
     }
     
 
@@ -218,7 +218,7 @@ body {
     .secondnav{
         background-color: rgb(255, 255, 255);
         max-width:100%;
-        height: 600px;
+        height: 575px;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
@@ -231,9 +231,11 @@ body {
         font-family: 'Montserrat', sans-serif;
         font-size: 17px;
         margin-top: 80px;
-        color: rgb(34, 33, 33);
+        color: rgb(41, 38, 38);
         letter-spacing: 0px;
         text-align: center;
+        font-weight: 800;
+        margin-bottom: 0%;
     }
 
     .buttons{
@@ -244,6 +246,7 @@ body {
         align-items: center;
         flex-wrap: wrap;
         margin-top: 33px;
+       
     }
 
 
@@ -251,6 +254,7 @@ body {
         width: 270px;
         margin-top: 15px;
         height: auto;
+    
     }
     
     
@@ -260,7 +264,7 @@ body {
         background-color: rgb(34, 36, 36);
         display: list-item;
         position: absolute;
-        position: fixed;
+        
         left: 0;
         bottom: 0;
         width: 100%;
@@ -272,6 +276,14 @@ body {
 
     .mobilebuttons{
         display: none;
+    }
+
+    .buttonicon{
+        width: 100%;
+        height: 41px;
+        margin-top: -15px;
+        margin-bottom: 10px;
+
     }
     
     
