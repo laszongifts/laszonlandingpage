@@ -120,7 +120,7 @@ body {
     display: none;
 }
 
-.footer{
+footer{
     display: none;
 }
 
@@ -218,7 +218,7 @@ body {
     .secondnav{
         background-color: rgb(255, 255, 255);
         max-width:100%;
-        height: 575px;
+        height: 600px;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
@@ -258,18 +258,17 @@ body {
     }
     
     
-    .footer{
+    footer{
         width: 100%;
-        height: 60px;
+        height: 55px;
         background-color: rgb(34, 36, 36);
-        display: list-item;
+        margin-top: 550px;
         position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
         border-radius: 60px 60px 0px 0px;
+        color: aliceblue;
         text-align: center;
-        color: beige;
+        padding-top: 10px;
+        letter-spacing: 2px;
         font-family: 'Montserrat', sans-serif;
     }
 
