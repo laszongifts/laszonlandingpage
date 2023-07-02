@@ -190,7 +190,7 @@ body {
         color: rgb(255, 255, 255);
         letter-spacing: 1px;
         padding-left: 33px;
-        font-weight: 750;
+        font-weight: 950;
         padding-bottom: 0%;
         margin-bottom: 8px;
         padding-top: 75px;
@@ -264,7 +264,7 @@ body {
         background-color: rgb(34, 36, 36);
         display: list-item;
         position: absolute;
-        
+        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
