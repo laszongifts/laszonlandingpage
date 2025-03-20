@@ -1,109 +1,207 @@
-body {
-    margin: 0%;
-    padding: 0%;
-    background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(49, 49, 47));
-    width: 100%;
-    height: 800px;
-
-}
-
-.nav {
-    background-color: rgb(43, 43, 43);
-    width: 100%;
-    height: 100px;
-    margin: auto;
-    border-radius: 0px 0px 100px 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-}
-
-.logonav{
-    width: auto;
-    height: 55px;
-    margin-top: 22px;
-}
-
-
-.callusnow {
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    padding-top: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-    text-decoration: none;
-    display: inline-block;
-}
-.hithere{
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
     
+    .background{
+        display: none;
+    }
+
+    .newdiv{
+        display: none;
+    }
+
+
+    .root {
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(248, 248, 248);
+        width: 100%;
+        height: 650px;
+        padding-bottom: 60px;
+    }
+
+    .nav {
+        background-color: #151515;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+        border-radius: 0px 0px 30px 30px;
+        text-align: center;
+    }
+
+    .logonavweb{
+        width: auto;
+        height: 35px;
+        margin-top: 19px;
+        float: left;
+        margin-left: 5%;
+    }
+    .logonav{
+       display: none;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: right;
+       
+        
+       
+    }
+
+    .navtexttwo{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0%;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11pt;
+        margin-right: -50px;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px 50px;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11pt;
+    }
+
+    .iconjoinus{
+        
+        width: 100%;
+        height: 150px;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        font-size: 14pt;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 30px;
+      
+    }
+
+    .buttoniconweb{
+        width: 30px;
+        margin-top: 10px;
+        
+    }
+      
+    .main {
+        display: flex;
+        margin-top: -15px;
+    }
+
+    .mobilebuttons{ 
+        width: 50%;
+        height: 150px;
+        
+    }
+
+    .mobilebuttonstwo{
+        width: 50%;
+        height: 150px;
+    }
+
+    .mbsocialbutton{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+
+    .mbsocialbuttontwo{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+        margin-top: 10px;   
+    }
+
+
+
+
+.hithere{
     width: 100%;
     height: 150px;
     text-align: center;
-    margin-top: 80px;
-    
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.giftboxone{
+    display: none;
 }
 
 
 .hitheretext{
-    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     padding-top: 25px;
     margin-bottom: 0%;
-    color: rgb(233, 233, 233);
-    letter-spacing: 2px;
-    font-weight: 500;
+    color: #151515;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
 }
 
 
 .hitheretext2{
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin-top: 8px;
-    color: rgb(233, 233, 233);
-    letter-spacing: 3px;
+    margin-top: 10px;
+    color: #151515;
+    font-family: "Montserrat", sans-serif;
+    line-height: 23px;
+    margin-bottom: 10px;
 }
 
 .giftbox{
     display: none;
-
 }
 
+
+.callnowtextweb{
+    text-align: center;
+        font-size: 13.5pt;
+        font-family: "Montserrat", sans-serif;
+        margin-top: -6px;
+        color: #151515;
+        font-weight: 600;
+        animation: blinker 2s linear infinite;
+        text-decoration: none;
+      
+        
+    }
+
+    @keyframes blinker {
+        35% {
+          opacity: 0;
+        }
+      }
 
 .mobilehithere{
     display: none;
-
 }
 
-.joinus{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-top: 60px;
-    color: rgb(233, 233, 233);
-    letter-spacing: 3px;
+.joinusweb{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13pt;
+    margin-top: 65px;
+    color: #151515;
     text-align: center;
 }
 
-
-.mbsocialbutton{
-    width: 250px;
-    margin: 8px;
-  
-}
-
-.mobilebuttons{
-    width: 360px;
-    margin: auto;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0%;
-    
-   
-    
-}
- 
 
 
 .logo{
@@ -116,127 +214,218 @@ body {
   
 }
 
+
 .secondnav{
     display: none;
 }
 
-footer{
-    display: none;
+
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer img {
+    width: 130px;
+    height: auto;
+}
+.footer p {
+    margin: 5px 0;
+}
+
+.footer {
+    background-color:#151515;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 100%;
+    position: relative; /* Ensures it stays in place */
+    bottom: 0;
+    margin-top: auto; /* Pushes it to the bottom */
 }
 
 
 
-@media only screen and (max-width: 450px) {
 
 
 
-    body {
+
+
+
+
+
+
+@media only screen and (max-width: 450px) 
+
+
+
+
+{
+
+
+   
+    
+
+    .root {
         margin: 0%;
         padding: 0%;
         width: 100%;
-        height: auto;
-        background-image: url(img/golden.jpg);
-        
+        height: 900px;
+        padding-bottom: 500px;
     }
-    
+
+   
+
+    .background{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: -60px;
+        display: inline;
+    }
+    .navtext {
+        display: none;
+    }
+    .navtexttwo {
+        display: none;
+    }
+   
+
 
     .nav {
-        background-color: rgb(43, 43, 43);
-        max-width:100%;
-        height: 75px;
+        background-color: #151515;
+        width: 100%;
+        height: 80px;
         margin: auto;
         border-radius: 0px 0px 60px 60px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 0%;
         padding-bottom: 0%;
+        position: fixed;
+        top: 0%;
     }
 
     .logonav{
         width: auto;
-        height: 43px;
-        margin-top: 17px;
-    }
-    
-
-   
-    
-    .callusnow {
-        margin: 0%;
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        text-align: center;
-        padding-top: 19px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        letter-spacing: 2px;
+        height: 37px;
+        margin-top: 22px;
+        float: none;
+        margin-left: 8px;
+        display: inline-flex;
     }
 
+    .logonavweb{
+      display: none;
+    }
+
+    
+    
     .hithere{
         display: none;
-    
     }
     
-
     .mobilehithere{
         display: list-item;
         width: 100%;
-        height: 198px;
-        margin-top: -20px;
-    }
-
-    .mobilehitheretext {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
-        color: rgb(255, 255, 255);
-        letter-spacing: 1px;
-        padding-left: 33px;
-        font-weight: 950;
-        padding-bottom: 0%;
-        margin-bottom: 8px;
-        padding-top: 75px;
-    }
-
-    .mobilehitheretext2{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        color: rgb(27, 26, 26);
-        padding-left: 33px;
-        margin-top: 0;
-        padding-top: 0;
-        letter-spacing: 1px;
-    }
-    
-    .giftbox{
-        display: list-item;
-        width: 98px;
         height: auto;
-        float: right;
-        margin-top: 10px;
-
+        position: fixed;
+        top: 100px;
+        
     }
+
+    .welcome{
+        color: #1e1406;
+        text-align: center;
+        font-size: 16pt;
+       font-weight: 300;
+        margin-top: 55px;
+        font-family: "Raleway", sans-serif;
+        
+    }
+    .welcome2{
+        color: #1e1406;
+        text-align: center;
+        font-size: 15pt;
+       font-weight: 500;
+       margin-top: -12px;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 1px;
+        
+    }
+
+    .callnowtext{
+            text-align: center;
+            font-size: 111%;
+            font-family: "Montserrat", sans-serif;
+            margin-top: -6px;
+            color: #1e1406;
+            font-weight: 600;
+            animation: blinker 2s linear infinite;
+            text-decoration: none;
+            letter-spacing: 1px;
+            
+        }
+    
+   
+
+    @keyframes blinker {
+        30% {
+          opacity: 0;
+        }
+      }
+
+
+
+   
+    .thankyou{
+        text-align: center;
+        font-size: 10.5pt;
+        font-family: "Raleway", sans-serif;
+        line-height: 17px;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        color: #141414;
+    }
+
+
 
     .secondnav{
-        background-color: rgb(255, 255, 255);
-        max-width:100%;
-        height: auto;
+        background-color: #f5f5f5;
+        width: 100%;
+        height: 800px;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
-        margin-top: 0px;
         position: absolute;
+        text-align: center;
+      
+        
         
     }
 
     .joinus{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 17px;
-        margin-top: 80px;
-        color: rgb(41, 38, 38);
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        margin-top: 66px;
+        color: #161616;
         letter-spacing: 0px;
         text-align: center;
-        font-weight: 800;
-        margin-bottom: 0%;
+        font-weight:300;
+        margin-bottom: 40px;
     }
+
 
     .buttons{
         margin: auto;
@@ -245,50 +434,165 @@ footer{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 33px;
-       
+        margin-top: 10px;
+        background-color: #ffeeef;
+        height: 300px;
+        
     }
 
 
     .socialbutton{
         width: 270px;
-        margin-top: 15px;
+        margin-top: 0%;
         height: auto;
     
     }
     
-    
-    .footer{
-        width: 100%;
-        height: 55px;
-        background-color: rgb(34, 36, 36);
-        border-radius: 60px 60px 0px 0px;
-        color: aliceblue;
-        text-align: center;
-        padding-top: 10px;
-        letter-spacing: 2px;
-        font-family: 'Montserrat', sans-serif;
-        display: list-item;
-        margin-top: 44px;
-        
-       
-    }
 
     .mobilebuttons{
         display: none;
     }
 
+    .mobilebuttonstwo{
+        display: none;
+    }
+
+
     .buttonicon{
         width: 100%;
         height: 41px;
-        margin-top: -15px;
-        margin-bottom: 10px;
+        margin-bottom: 4px;
+        margin-top: -25px;
+    }
+
+
+    .newdiv{
+        display: inline;
+    }
+
+
+    .footer {
+        background-color:#151515;
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        width: 100%;
+        position: relative; /* Ensures it stays in place */
+        bottom: 0;
+        margin-top: auto; /* Pushes it to the bottom */
+    }
+
+    .footer img {
+        width: 90px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 25px;
+        
 
     }
     
+    .social-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 220px;
+        padding: 4px 4px;
+        margin-top: 3px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-weight: bold;
+        transition: transform 1.3s ease-in-out;
+        animation: pulse 1s infinite alternate;
+        margin: auto;
+    }
+   
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.05); }
+    }
+        
+
+    
+    .social-text {
+        flex-grow: 1;
+        text-align: left;
+        padding-left:35px;
+    }
+    .whatsapp { background: #925623; }
+    .whatsapp:hover { background: #4c2d12; }
+    .instagram { background: #925623; }
+    .instagram:hover { background: #4c2d12; }
+    .facebook { background: #925623; }
+    .facebook:hover { background: #4c2d12; }
+    .call { background: #925623; }
+    .call:hover { background: #4c2d12;   }
+
+
+
+    .icon-container {
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-button img {
+        width: 20px;
+        height: 20px;
+        filter: brightness(0) invert(0);
+    }
+
+
+    
     
 
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+   
+
+
+    
+    
 }
+    
+
+
+
 
 
 
